@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'SoftwareEngineeringPart2',
+    'myapp',
 ]
 
 MIDDLEWARE = [
@@ -76,10 +78,15 @@ WSGI_APPLICATION = 'SoftwareEngineeringPart2.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'test1',
+        'USER': 'anke',
+        'PASSWORD': '2137',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation
