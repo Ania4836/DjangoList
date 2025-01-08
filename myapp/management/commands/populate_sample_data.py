@@ -25,3 +25,4 @@ class Command(BaseCommand):
         order3.products.add(product3)
 
         self.stdout.write("Sample data created successfully.")
+
