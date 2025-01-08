@@ -25,7 +25,8 @@ INSTALLED_APPS = [
     'SoftwareEngineeringPart2',
     'myapp',
     'rest_framework',
-    'rest_framework_simplejwt',  # Add Simple JWT
+    'rest_framework_simplejwt',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
